@@ -1,6 +1,6 @@
 ## ECDSA Node
 
-A client-server architecture based project setup to understand basic working of blockchain.  Since there is just a single server on the back-end handling transfers, this is clearly very centralized. We won't worry about distributed consensus for this project.
+A client-server architecture based project setup to understand basic working of blockchain.  Since there is just a single server on the back-end handling transfers, this is clearly very centralized.
 
 Incoporated Public Key Cryptography. Used Elliptic Curve Digital Signatures so the server only allows transfers that have been signed for by the person who owns the associated address.
  
