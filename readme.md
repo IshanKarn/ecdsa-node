@@ -28,11 +28,13 @@ To edit initial balances you can modify 'balances' object in index.js
 To generate signature run sign.js.
 Enter amount (must be same as to be transferred) and private key (of sender) as input.
 Copy the signature generated and paste it in the input field for signature (as shown in below images).
+
 ![image](https://github.com/IshanKarn/ecdsa-node/assets/58829422/929135ca-a87a-4682-beec-6890b969f198)
 
 ### Transactions
 
 ##### Valid Transaction
+Note: *Use Ethereum type address for sender and recipient (last 20 bytes of the hash of the public key)*
 ![image](https://github.com/IshanKarn/ecdsa-node/assets/58829422/4c57e9cd-891d-4cbe-b624-35952a8b76c0)
 
 ##### Transaction With Invalid Sender's Address
